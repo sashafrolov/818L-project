@@ -1,0 +1,31 @@
+segment_id,segment_name,description,ip_range,tool_id,tool_name,tool_version,vendor,api_id,api_name,api_url,network_id,network_name
+1,Segment A,Production Network,192.168.1.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,1,WeatherAPI,https://api.weather.com,1,Production
+2,Segment B,Development Network,10.0.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,2,FinanceAPI,https://api.finance.example.com,2,Development
+3,Segment C,DMZ,172.16.0.0/16,1,PAM-Tool 1,1.0.0,Acme Corp,3,GeolocationAPI,https://api.geolocation.org,3,DMZ
+4,Segment D,Guest Network,192.168.2.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,4,SocialMediaAPI,https://api.social.net,4,Guest
+5,Segment E,Internal Network,172.17.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,5,PaymentAPI,https://api.payments.secure.com,5,Internal
+6,Segment F,Database Servers,10.10.10.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,6,StockMarketAPI,https://api.stocks.market,6,Database
+7,Segment G,Web Servers,192.168.3.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,7,NewsAPI,https://api.news.com,7,Web
+8,Segment H,IoT Devices,10.0.10.0/24,2,PAM-Tool 2,2.1.5,Beta Solutions,8,TrafficAPI,https://api.traffic.city,8,IoT
+9,Segment I,Monitoring System,172.18.0.0/16,1,PAM-Tool 1,1.0.0,Acme Corp,9,ImageRecognitionAPI,https://api.image.ai,9,Monitoring
+10,Segment J,Backup Servers,10.10.20.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,10,AuthenticationAPI,https://api.auth.secure.com,10,Backup
+11,Segment K,Log Servers,172.19.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,11,AnalyticsAPI,https://api.analytics.com,11,Log
+12,Segment L,Virtual Machines,10.10.30.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,12,MappingAPI,https://api.maps.location,12,VM
+13,Segment M,Security Cameras,192.168.4.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,13,WeatherForecastAPI,https://api.weather.forecast,13,Camera
+14,Segment N,Test Network,10.10.40.0/24,2,PAM-Tool 2,2.1.5,Beta Solutions,14,CurrencyConversionAPI,https://api.currency.exchange,14,Test
+15,Segment O,Cloud Services,172.20.0.0/16,1,PAM-Tool 1,1.0.0,Acme Corp,15,TranslationAPI,https://api.translate.com,15,Cloud
+16,Segment P,Edge Devices,10.0.20.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,16,SMSAPI,https://api.sms.messages,16,Edge
+17,Segment Q,High-Security Zone,172.21.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,17,BlockchainAPI,https://api.blockchain.network,17,HighSecurity
+18,Segment R,Low-Security Zone,10.0.30.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,18,DataAnalysisAPI,https://api.data.analysis,18,LowSecurity
+19,Segment S,Public Cloud,172.22.0.0/16,3,PAM-Tool 3,3.0.2,Gamma Systems,19,FileStorageAPI,https://api.storage.cloud,19,PublicCloud
+20,Segment T,Private Cloud,10.0.40.0/24,2,PAM-Tool 2,2.1.5,Beta Solutions,20,MachineLearningAPI,https://api.ml.model,20,PrivateCloud
+21,Segment U,Wireless Network,192.168.5.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,21,VideoStreamingAPI,https://api.video.stream,21,Wireless
+22,Segment V,Main Office,10.11.11.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,22,IdentityManagementAPI,https://api.identity.manager,22,MainOffice
+23,Segment W,Branch Office,172.23.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,23,CalendarAPI,https://api.calendar.schedule,23,BranchOffice
+24,Segment X,Remote Access,10.10.50.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,24,EmailAPI,https://api.email.provider,24,RemoteAccess
+25,Segment Y,Research and Development,172.24.0.0/16,3,PAM-Tool 3,3.0.2,Gamma Systems,25,MessagingAPI,https://api.messaging.platform,25,RnD
+26,Segment Z,Customer Support,10.0.50.0/24,2,PAM-Tool 2,2.1.5,Beta Solutions,26,NotificationAPI,https://api.notification.system,26,CustomerSupport
+27,Segment AA,Marketing,172.25.0.0/16,1,PAM-Tool 1,1.0.0,Acme Corp,27,ChatAPI,https://api.chat.communication,27,Marketing
+28,Segment BB,Sales,10.10.60.0/24,3,PAM-Tool 3,3.0.2,Gamma Systems,28,DocumentManagementAPI,https://api.documents.manager,28,Sales
+29,Segment CC,Human Resources,172.26.0.0/16,2,PAM-Tool 2,2.1.5,Beta Solutions,29,ProjectManagementAPI,https://api.project.manager,29,HR
+30,Segment DD,Finance,10.10.70.0/24,1,PAM-Tool 1,1.0.0,Acme Corp,30,CustomerRelationshipManagementAPI,https://api.crm.system,30,Finance

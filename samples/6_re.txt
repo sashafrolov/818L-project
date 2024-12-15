@@ -1,0 +1,3 @@
+urls: \b(https?:\/\/)([\w\-.]+\.)*[\w\-]+(?:\/[\w\-\.\/]+)?\b
+firewall_vendors: \b(Fortinet|Palo Alto Networks|Cisco)\b
+ipv6_addresses: \b(?:[A-Fa-f0-9]{1,4}:){7}[A-Fa-f0-9]{1,4}\b

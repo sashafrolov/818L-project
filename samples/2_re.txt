@@ -1,0 +1,6 @@
+internal_api_paths: /api\/v[0-9]+\/.*
+admin_paths: /admin\/.*
+private_paths: /private\/.*\/.*
+internal_dashboard_paths: /internal\/dashboard\/.*
+potentially_sensitive_paths: /config\/database\/.*| /private\/files\/documents\/.*
+

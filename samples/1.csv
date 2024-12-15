@@ -1,0 +1,11 @@
+alert_id,timestamp,alert_type,severity,description,user_id,username,ip_address,affected_resource,status,account_activity_id,event_type,success,last_login
+1,1678886400,phishing,high,"Suspicious email detected with link to fake login page.",101,john.doe,"192.168.1.10","/login",closed,1001,login,false,1678880000
+2,1678890000,malware,critical,"Ransomware detected on system; files encrypted.",102,jane.smith,"10.0.0.20","C:\Users\User\Documents",in_progress,1002,file_access,false,1678883600
+3,1678893600,intrusion,high,"Unauthorized access attempt from unknown IP address.",NULL,NULL,"172.16.0.100",NULL,closed,1003,login,false,NULL
+4,1678900800,phishing,medium,"Phishing attempt detected via email; user did not click link.",103,peter.jones,"192.168.1.20","/banking",closed,1004,email_access,true,1678897200
+5,1678904400,malware,low,"Potentially unwanted program detected; quarantined.",104,sarah.williams,"10.0.0.30","C:\Program Files\UnwantedProgram",closed,1005,software_install,true,1678901000
+6,1678972800,intrusion,critical,"Rootkit detected on server; system compromised.",NULL,NULL,"172.16.0.200","/server/root",in_progress,1006,system_access,false,NULL
+7,1678976400,data_breach,critical,"Sensitive data exfiltrated; investigation underway.",105,david.brown,"10.0.0.40","/database/sensitive_data",open,1007,database_access,false,1678972000
+8,1679059200,denial_of_service,high,"Denial of service attack detected; mitigated.",NULL,NULL,"192.168.1.30","/webserver",closed,1008,web_access,false,NULL
+9,1679062800,account_lockout,medium,"Account locked due to multiple failed login attempts.",106,michael.davis,"192.168.1.40","/login",closed,1009,login,false,1679055600
+10,1679066400,suspicious_activity,low,"Unusual login time detected; reviewed by security team.",107,emily.wilson,"10.0.0.50","/dashboard",closed,1010,login,true,1679060000

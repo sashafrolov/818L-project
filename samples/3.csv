@@ -1,0 +1,21 @@
+configuration_id,system_id,setting,value,device_id,name,ip_address,manufacturer,model,firmware_version,image_id,name,tag,is_secure
+1,101,"db_password","P@$$wOrd!","1001","SmartSensor1","192.168.1.100","AcmeCorp","SS-100","v1.2.3",2001,"nginx:latest","latest",true
+2,102,"api_key","abcdef123456","1002","Thermostat","10.0.0.10","TempCo","TH-2000","v2.0.0",2002,"alpine:3.16","3.16",false
+3,103,"ssh_key","-----BEGIN RSA PRIVATE KEY-----...-----END RSA PRIVATE KEY-----","1003","SmartLock","172.16.0.50","SecureTech","SL-5000","v3.1.0",2003,"node:16","16",true
+4,104,"admin_password","Admin123!","1004","MotionSensor","192.168.1.150","MotionSense","MS-100","v1.0.0",2004,"redis:7","7",false
+5,105,"database_url","jdbc:mysql://localhost:3306/mydb","1005","SecurityCamera","10.0.0.20","VisionTech","SC-3000","v4.0.1",2005,"postgres:14","14",true
+6,106,"api_secret","7890abcdef","1006","SmartLight","172.16.0.100","BrightLight","SL-100","v2.1.0",2006,"httpd:2.4","2.4",false
+7,107,"aws_access_key","AKIAIOSFODNN7EXAMPLE","1007","SmartSpeaker","192.168.1.200","SoundWave","SS-8000","v1.1.0",2007,"mysql:8","8",true
+8,108,"jwt_secret","!@#$%^&*()_+=-`","1008","WaterSensor","10.0.0.30","AquaSense","WS-500","v3.0.0",2008,"golang:1.20","1.20",false
+9,109,"redis_password","Red1s_P@$$","1009","SmokeDetector","172.16.0.150","FireSafe","SD-200","v2.0.1",2009,"python:3.9","3.9",true
+10,110,"ftp_password","FtP_P@sswOrd","1010","DoorSensor","192.168.1.250","DoorGuard","DS-1000","v1.0.1",2010,"ubuntu:latest","latest",falseconfiguration_id,system_id,setting,value,device_id,name,ip_address,manufacturer,model,firmware_version,image_id,name,tag,is_secure
+1,101,"db_password","P@$$wOrd!","1001","SmartSensor1","192.168.1.100","AcmeCorp","SS-100","v1.2.3",2001,"nginx:latest","latest",true
+2,102,"api_key","abcdef123456","1002","Thermostat","10.0.0.10","TempCo","TH-2000","v2.0.0",2002,"alpine:3.16","3.16",false
+3,103,"ssh_key","-----BEGIN RSA PRIVATE KEY-----...-----END RSA PRIVATE KEY-----","1003","SmartLock","172.16.0.50","SecureTech","SL-5000","v3.1.0",2003,"node:16","16",true
+4,104,"admin_password","Admin123!","1004","MotionSensor","192.168.1.150","MotionSense","MS-100","v1.0.0",2004,"redis:7","7",false
+5,105,"database_url","jdbc:mysql://localhost:3306/mydb","1005","SecurityCamera","10.0.0.20","VisionTech","SC-3000","v4.0.1",2005,"postgres:14","14",true
+6,106,"api_secret","7890abcdef","1006","SmartLight","172.16.0.100","BrightLight","SL-100","v2.1.0",2006,"httpd:2.4","2.4",false
+7,107,"aws_access_key","AKIAIOSFODNN7EXAMPLE","1007","SmartSpeaker","192.168.1.200","SoundWave","SS-8000","v1.1.0",2007,"mysql:8","8",true
+8,108,"jwt_secret","!@#$%^&*()_+=-`","1008","WaterSensor","10.0.0.30","AquaSense","WS-500","v3.0.0",2008,"golang:1.20","1.20",false
+9,109,"redis_password","Red1s_P@$$","1009","SmokeDetector","172.16.0.150","FireSafe","SD-200","v2.0.1",2009,"python:3.9","3.9",true
+10,110,"ftp_password","FtP_P@sswOrd","1010","DoorSensor","192.168.1.250","DoorGuard","DS-1000","v1.0.1",2010,"ubuntu:latest","latest",false

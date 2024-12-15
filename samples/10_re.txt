@@ -1,0 +1,5 @@
+email_addresses: \b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b
+privilege_names: \b(admin|security|network|database|system)\b
+dates_yyyy_mm_dd: \b\d{4}(?:-\d{2}){2}\b
+floating_point_nums: \b\d+\.\d+\b
+

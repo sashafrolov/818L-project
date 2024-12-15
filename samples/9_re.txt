@@ -1,0 +1,3 @@
+compliance_standard_names: \b(PCI DSS|HIPAA|GDPR|NIST Cybersecurity Framework|ISO 27001|NIST SP 800-53|SOC 2|ISO 27701|OWASP Top 10|CIS Benchmarks)\b
+version_numbers: \d{4}\.\d{1,2}
+tool_vendor_names: \b(?:Tenable|Greenbone|Qualys|Rapid7|Acunetix|PortSwigger|OWASP|Checkmarx|SonarSource|Veracode|CrowdStrike|VMware|SentinelOne|BlackBerry|Veeam|Acronis|Rubrik|Commvault|Microsoft|Amazon|NIST|Chef|Puppet|Red Hat|Tripwire|IBM|SailPoint|CyberArk|Google|Snyk|Micro Focus|GitHub|GitLab|Palo Alto Networks|McAfee|Trend Micro)\b

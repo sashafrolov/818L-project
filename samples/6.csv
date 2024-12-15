@@ -1,0 +1,11 @@
+app_id,app_name,uri,framework,version,firewall_id,firewall_name,vendor,protocol_id,protocol_name,version,description
+1,EcommerceApp,"https://www.example.com","React","1.2.3",1,"Fortinet FortiGate","Fortinet",1,"HTTP","1.1","Hypertext Transfer Protocol"
+2,BankingApp,"https://bank.example.com","Angular","2.0.0",2,"Palo Alto Networks PA-Series","Palo Alto Networks",1,"HTTP","1.1","Hypertext Transfer Protocol"
+3,InternalPortal,"https://internal.example.com","Vue.js","3.0.1",1,"Fortinet FortiGate","Fortinet",2,"HTTPS","1.1","Hypertext Transfer Protocol Secure"
+4,BlogApp,"https://blog.example.com","Next.js","1.1.2",3,"Cisco ASA","Cisco",1,"HTTP","1.1","Hypertext Transfer Protocol"
+5,SocialMediaApp,"https://social.example.com","Ruby on Rails","5.2.4",2,"Palo Alto Networks PA-Series","Palo Alto Networks",2,"HTTPS","1.1","Hypertext Transfer Protocol Secure"
+6,GamingApp,"https://game.example.com","Unity","2021.3.1f1",3,"Cisco ASA","Cisco",3,"FTP","1.0","File Transfer Protocol"
+7,CRMApp,"https://crm.example.com","ASP.NET","4.8",1,"Fortinet FortiGate","Fortinet",3,"FTP","1.0","File Transfer Protocol"
+8,ProjectManagementApp,"https://project.example.com","Python/Flask","1.0.0",2,"Palo Alto Networks PA-Series","Palo Alto Networks",4,"SMTP","1.0","Simple Mail Transfer Protocol"
+9,InventoryApp,"https://inventory.example.com","Java/Spring","2.1.0",3,"Cisco ASA","Cisco",4,"SMTP","1.0","Simple Mail Transfer Protocol"
+10,HelpDeskApp,"2001:0db8:85a3:0000:0000:8a2e:0370:7334","PHP/Laravel","8.0.2",1,"Fortinet FortiGate","Fortinet",5,"DNS","1.0","Domain Name System"

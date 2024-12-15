@@ -1,0 +1,4 @@
+os_names: \b(Windows Server|Ubuntu|Red Hat Enterprise Linux|CentOS|macOS|Debian|SUSE Linux Enterprise Server|Oracle Linux|Amazon Linux|Solaris)\b
+vendor_names: \b(VendorA|VendorB|VendorC)\b
+policy_names: Policy [A-Z]
+requirements_dependencies_list: \["([^"]+)", "([^"]+)"\]

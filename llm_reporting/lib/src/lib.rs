@@ -1,22 +1,8 @@
-use alloy_sol_types::sol;
+use serde::{Serialize, Deserialize};
 
-sol! {
-    /// The public values encoded as a struct that can be easily deserialized inside Solidity.
-    struct PublicValuesStruct {
-        uint32 n;
-        uint32 a;
-        uint32 b;
-    }
-}
-
-/// Compute the n'th fibonacci number (wrapping around on overflows), using normal Rust code.
-pub fn fibonacci(n: u32) -> (u32, u32) {
-    let mut a = 0u32;
-    let mut b = 1u32;
-    for _ in 0..n {
-        let c = a.wrapping_add(b);
-        a = b;
-        b = c;
-    }
-    (a, b)
+#[derive(Serialize, Deserialize)]
+pub struct PublicValuesStruct {
+    pub reg: String,
+    pub input_hash: [u8; 32], // Hash of the input text
+    pub is_match: bool,
 }

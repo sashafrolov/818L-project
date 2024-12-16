@@ -1,11 +1,11 @@
 [package]
 version = "0.1.0"
-name = "fibonacci-script"
+name = "regex-script"
 edition = "2021"
-default-run = "fibonacci"
+default-run = "regex"
 
 [[bin]]
-name = "fibonacci"
+name = "regex"
 path = "src/bin/main.rs"
 
 [[bin]]
@@ -20,7 +20,10 @@ clap = { version = "4.0", features = ["derive", "env"] }
 tracing = "0.1.40"
 hex = "0.4.3"
 alloy-sol-types = { workspace = true }
-fibonacci-lib = { path = "../lib" }
+regex-lib = { path = "../lib" }
+bincode = "1.3.3"
+regex = "1.11.1"
+sha2 = "0.10.8"
 
 [build-dependencies]
 sp1-helper = "3.0.0"
